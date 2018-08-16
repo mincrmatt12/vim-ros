@@ -49,7 +49,7 @@ def buf_enter():
         make_cmd = 'rosmake '
     if vimp.var['g:ros_make'] == 'all':
         vimp.opt['makeprg'] = make_cmd + ' '.join(packages.keys())
-    else:
+    else if vimp.var['g:ros_make'] != 'none':
         vimp.opt['makeprg'] = make_cmd + p
 
 
