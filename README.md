@@ -1,3 +1,7 @@
+MM12 Fork, disables makeprg setting.
+
+
+
 This plugin activates itself for files that belong to some ROS package.
 
 Features
